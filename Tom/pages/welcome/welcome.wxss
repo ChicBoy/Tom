@@ -1,0 +1,6 @@
+/* pages/welcome/welcome.wxss */
+.welcomeImg{
+  margin-top: 300rpx;
+  height: 300rpx;
+  width: 100%;
+}

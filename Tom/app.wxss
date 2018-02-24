@@ -1,0 +1,4 @@
+/**app.wxss**/
+.Tomnone{
+  display: none;
+}

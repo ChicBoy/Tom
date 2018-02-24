@@ -1,0 +1,2 @@
+<!--pages/welcome/welcome.wxml-->
+<image class='welcomeImg' src='../PublicTreasury/Icon/ylogo.png' animation="{{animation}}"></image>

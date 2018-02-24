@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+    <view class='TomeAnimation'>
+      <image class='TomImg' src='{{tomUrl}}'></image>    
+      <button class='Tombtn cymbal' disabled='{{disabled}}' bindtap='cymbal'></button>
+      <button class='Tombtn drink' disabled='{{disabled}}' bindtap='drink'></button>
+      <button class='Tombtn eat' disabled='{{disabled}}' bindtap='eat'></button>
+      <button class='Tombtn fart' disabled='{{disabled}}' bindtap='fart'></button>
+      <button class='Tombtn pie' disabled='{{disabled}}' bindtap='pie'></button>
+      <button class='Tombtn scratch' disabled='{{disabled}}' bindtap='scratch'></button>
+      <button class='Tombtn knockout' disabled='{{disabled}}' bindtap='knockout'></button>
+      <button class='Tombtn stomach' disabled='{{disabled}}' bindtap='stomach'></button>
+      <button class='Tombtn footLeft' disabled='{{disabled}}' bindtap='footLeft'></button>
+      <button class='Tombtn footRight' disabled='{{disabled}}' bindtap='footRight'></button>
+      <button class='Tombtn angry' disabled='{{disabled}}' bindtap='angry'></button>
+    </view>
+    <audio class='Tomnone' action="{{action}}" src='{{TomaudioUrl}}'></audio>
+</view>
